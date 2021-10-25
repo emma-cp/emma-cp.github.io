@@ -87,6 +87,39 @@ body {
   color: white;
   display: block;
 }
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  grid-gap: 4rem;
+  width: 100%;
+  max-width: 1280px;
+  margin: auto;
+  margin-bottom: 6rem;
+}
+.project {
+  background: rgb(48 56 65);
+  box-shadow: 1px 1px 2px rgb(0 0 0 / 50%);
+  border-radius: 2px;
+}
+.project-title {
+  font-size: 1.4em;
+  padding: 2rem .5rem;
+}
+.project-title p {
+  display: block;
+  color: white;
+}
+
+.project-title a {
+  text-decoration: none;
+  color: white;
+}
+.project-image {
+  object-fit: cover;
+  width: 100%;
+  height: calc(100% - 6.8rem);
+}
 .contact-section {
   display: flex;
   flex-direction: column;
